@@ -195,7 +195,7 @@ Array(1000) //pusca pc
     star++;
   });
 
-console.warn("Pc sar putea sa puste!");
+console.warn("Pc ar putea sa puste!");
 
 const clock = new three.Clock();
 
