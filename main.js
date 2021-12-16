@@ -177,7 +177,7 @@ function addStar() {
 
   const [x, y, z] = Array(3)
     .fill(0)
-    .map(() => three.MathUtils.randFloatSpread(1000));
+    .map(() => three.MathUtils.randFloatSpread(2000));
 
   star.position.set(x, y, z);
   scene.add(star);
@@ -185,7 +185,7 @@ function addStar() {
 
 let star = 1;
 
-Array(1000) //pusca pc
+Array(2000) //pusca pc
   .fill(0)
   .forEach(() => {
     if (star % 100 == 0) {
